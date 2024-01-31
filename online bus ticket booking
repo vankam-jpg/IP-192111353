@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bus Ticket Booking System</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Bus Ticket Booking System</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#login">Login</a>
+        <a href="#registration">Registration</a>
+        <a href="#book_ticket">Book Ticket</a>
+        <a href="#update_info">Update Bus Information</a>
+        <a href="#cancel_ticket">Cancel Booking Ticket</a>
+        <a href="#comments">Comments</a>
+        <a href="#reports">Report Generation</a>
+    </nav>
+
+    <!-- Login Section -->
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration">
+        <h2>Registration</h2>
+        <form>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <textarea name="address" placeholder="Address" required></textarea>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Book Ticket Section -->
+    <section id="book_ticket">
+        <h2>Book Ticket</h2>
+        <!-- Form to book a ticket -->
+    </section>
+
+    <!-- Update Bus Information Section -->
+    <section id="update_info">
+        <h2>Update Bus Information</h2>
+        <!-- Form to update bus information -->
+    </section>
+
+    <!-- Cancel Booking Ticket Section -->
+    <section id="cancel_ticket">
+        <h2>Cancel Booking Ticket</h2>
+        <!-- Form to cancel a booking -->
+    </section>
+
+    <!-- Comments Section -->
+    <section id="comments">
+        <h2>Comments</h2>
+        <!-- Form to post comments -->
+    </section>
+
+    <!-- Report Generation Section -->
+    <section id="reports">
+        <h2>Report Generation</h2>
+        <!-- Report generation form or functionality -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Bus Ticket Booking System</p>
+    </footer>
+</body>
+</html>
