@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Beauty Parlour Appointment Booking System</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Beauty Parlour Appointment Booking System</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#customer_login">Customer Login</a>
+        <a href="#salon_manager_login">Salon Manager Login</a>
+        <a href="#staff_member_login">Staff Member Login</a>
+    </nav>
+
+    <!-- Customer Login Section -->
+    <section id="customer_login">
+        <h2>Customer Login</h2>
+        <!-- Customer login form -->
+    </section>
+
+    <!-- Salon Manager Login Section -->
+    <section id="salon_manager_login">
+        <h2>Salon Manager Login</h2>
+        <!-- Salon manager login form -->
+    </section>
+
+    <!-- Staff Member Login Section -->
+    <section id="staff_member_login">
+        <h2>Staff Member Login</h2>
+        <!-- Staff member login form -->
+    </section>
+
+    <!-- Reservations Calendar Section -->
+    <section id="reservations_calendar">
+        <h2>Reservations Calendar</h2>
+        <!-- Display reservations calendar -->
+    </section>
+
+    <!-- Create Reservation Section -->
+    <section id="create_reservation">
+        <h2>Create Reservation</h2>
+        <!-- Reservation creation form -->
+    </section>
+
+    <!-- Edit Reservation Section -->
+    <section id="edit_reservation">
+        <h2>Edit Reservation</h2>
+        <!-- Reservation editing form -->
+    </section>
+
+    <!-- Send SMS or Call Section -->
+    <section id="send_sms_call">
+        <h2>Send SMS or Call</h2>
+        <!-- SMS or Call sending form -->
+    </section>
+
+    <!-- Leave Feedback Section -->
+    <section id="leave_feedback">
+        <h2>Leave Feedback</h2>
+        <!-- Feedback form -->
+    </section>
+
+    <!-- Online Payments Section -->
+    <section id="online_payments">
+        <h2>Online Payments</h2>
+        <!-- Payment options -->
+    </section>
+
+    <!-- Automatic Cancellation Section -->
+    <section id="automatic_cancellation">
+        <h2>Automatic Cancellation</h2>
+        <!-- Cancellation settings -->
+    </section>
+
+    <!-- Payments Integration Section -->
+    <section id="payments_integration">
+        <h2>Payments Integration</h2>
+        <!-- Payment gateway options -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Beauty Parlour Appointment Booking System</p>
+    </footer>
+</body>
+</html>
+
