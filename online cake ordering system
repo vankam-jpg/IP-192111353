@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Cake Ordering System</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Cake Ordering System</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#admin_login">Admin Login</a>
+        <a href="#student_login">Student Login</a>
+        <a href="#register">Register</a>
+    </nav>
+
+    <!-- Admin Login Section -->
+    <section id="admin_login">
+        <h2>Admin Login</h2>
+        <!-- Admin login form -->
+    </section>
+
+    <!-- Student Login Section -->
+    <section id="student_login">
+        <h2>Student Login</h2>
+        <!-- Student login form -->
+    </section>
+
+    <!-- Register Section -->
+    <section id="register">
+        <h2>Register</h2>
+        <!-- Registration form -->
+    </section>
+
+    <!-- Manage Products Section -->
+    <section id="manage_products">
+        <h2>Manage Products</h2>
+        <!-- Product management options -->
+    </section>
+
+    <!-- Post Cake Details Section -->
+    <section id="post_cake_details">
+        <h2>Post Cake Details</h2>
+        <!-- Form to post cake details -->
+    </section>
+
+    <!-- Search Cake Section -->
+    <section id="search_cake">
+        <h2>Search Cake</h2>
+        <!-- Cake search form -->
+    </section>
+
+    <!-- Upload Images Section -->
+    <section id="upload_images">
+        <h2>Upload Images</h2>
+        <!-- Form to upload images -->
+    </section>
+
+    <!-- Filter Product Section -->
+    <section id="filter_product">
+        <h2>Filter Product</h2>
+        <!-- Form to filter products -->
+    </section>
+
+    <!-- Manage Orders Section -->
+    <section id="manage_orders">
+        <h2>Manage Orders</h2>
+        <!-- Order management options -->
+    </section>
+
+    <!-- Price Range Section -->
+    <section id="price_range">
+        <h2>Price Range</h2>
+        <!-- Form to set price range -->
+    </section>
+
+    <!-- Update Order Status Section -->
+    <section id="update_order_status">
+        <h2>Update Order Status</h2>
+        <!-- Form to update order status -->
+    </section>
+
+    <!-- View Cake List Section -->
+    <section id="view_cake_list">
+        <h2>View Cake List</h2>
+        <!-- Display list of cakes -->
+    </section>
+
+    <!-- Shipping Location Section -->
+    <section id="shipping_location">
+        <h2>Shipping Location</h2>
+        <!-- View shipping locations -->
+    </section>
+
+    <!-- View Cake Description Section -->
+    <section id="view_cake_description">
+        <h2>View Cake Description</h2>
+        <!-- Display cake description -->
+    </section>
+
+    <!-- Add to Cart Section -->
+    <section id="add_to_cart">
+        <h2>Add to Cart</h2>
+        <!-- Form to add cakes to cart -->
+    </section>
+
+    <!-- Place Order Section -->
+    <section id="place_order">
+        <h2>Place Order</h2>
+        <!-- Form to place order -->
+    </section>
+
+    <!-- Add Shipping Address Section -->
+    <section id="add_shipping_address">
+        <h2>Add Shipping Address</h2>
+        <!-- Form to add shipping address -->
+    </section>
+
+    <!-- Update Shipping Address Section -->
+    <section id="update_shipping_address">
+        <h2>Update Shipping Address</h2>
+        <!-- Form to update shipping address -->
+    </section>
+
+    <!-- My Order Section -->
+    <section id="my_order">
+        <h2>My Order</h2>
+        <!-- Display user's orders -->
+    </section>
+
+    <!-- View Shipping Status Section -->
+    <section id="view_shipping_status">
+        <h2>View Shipping Status</h2>
+        <!-- Display shipping status -->
+    </section>
+
+    <!-- Logout Section -->
+    <section id="logout">
+        <h2>Logout</h2>
+        <!-- Logout functionality -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Cake Ordering System</p>
+    </footer>
+</body>
+</html>
