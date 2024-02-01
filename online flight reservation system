@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Flight Reservation System</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Flight Reservation System</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#admin_login">Admin Login</a>
+        <a href="#forgot_password">Forgot Password</a>
+        <a href="#search_flight">Search Flight</a>
+        <a href="#book_ticket">Book Ticket</a>
+        <a href="#ticket_payment">Ticket Payment</a>
+        <a href="#my_ticket">My Ticket</a>
+        <a href="#cancel_ticket">Cancel Ticket</a>
+        <a href="#customer_feedback">Customer Feedback</a>
+        <a href="#admin_report">Admin Report</a>
+    </nav>
+
+    <!-- Admin Login Section -->
+    <section id="admin_login">
+        <h2>Admin Login</h2>
+        <!-- Admin login form -->
+    </section>
+
+    <!-- Forgot Password Section -->
+    <section id="forgot_password">
+        <h2>Forgot Password</h2>
+        <!-- Forgot password form -->
+    </section>
+
+    <!-- Search Flight Section -->
+    <section id="search_flight">
+        <h2>Search Flight</h2>
+        <!-- Flight search form -->
+    </section>
+
+    <!-- Book Ticket Section -->
+    <section id="book_ticket">
+        <h2>Book Ticket</h2>
+        <!-- Ticket booking form -->
+    </section>
+
+    <!-- Ticket Payment Section -->
+    <section id="ticket_payment">
+        <h2>Ticket Payment</h2>
+        <!-- Payment form -->
+    </section>
+
+    <!-- My Ticket Section -->
+    <section id="my_ticket">
+        <h2>My Ticket</h2>
+        <!-- Display booked tickets -->
+    </section>
+
+    <!-- Cancel Ticket Section -->
+    <section id="cancel_ticket">
+        <h2>Cancel Ticket</h2>
+        <!-- Cancel ticket form -->
+    </section>
+
+    <!-- Customer Feedback Section -->
+    <section id="customer_feedback">
+        <h2>Customer Feedback</h2>
+        <!-- Feedback form -->
+    </section>
+
+    <!-- Admin Report Section -->
+    <section id="admin_report">
+        <h2>Admin Report</h2>
+        <!-- Display admin reports -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Flight Reservation System</p>
+    </footer>
+</body>
+</html>
