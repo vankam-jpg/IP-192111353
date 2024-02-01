@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Gadget Store</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Gadget Store</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#login">Login</a>
+        <a href="#search_items">Search Items</a>
+        <a href="#view_cart">View Cart</a>
+        <a href="#checkout">Checkout</a>
+        <a href="#order_status">Order Status</a>
+        <a href="#order_history">Order History</a>
+        <a href="#item_details">Item Details</a>
+        <a href="#logout">Logout</a>
+        <a href="#leave_site">Leave Site</a>
+    </nav>
+
+    <!-- Login Section -->
+    <section id="login">
+        <h2>Login</h2>
+        <!-- Login form -->
+    </section>
+
+    <!-- Search Items Section -->
+    <section id="search_items">
+        <h2>Search Items</h2>
+        <!-- Search form -->
+    </section>
+
+    <!-- View Cart Section -->
+    <section id="view_cart">
+        <h2>View Cart</h2>
+        <!-- Display cart items -->
+    </section>
+
+    <!-- Checkout Section -->
+    <section id="checkout">
+        <h2>Checkout</h2>
+        <!-- Checkout form -->
+    </section>
+
+    <!-- Order Status Section -->
+    <section id="order_status">
+        <h2>Order Status</h2>
+        <!-- Display order status -->
+    </section>
+
+    <!-- Order History Section -->
+    <section id="order_history">
+        <h2>Order History</h2>
+        <!-- Display order history -->
+    </section>
+
+    <!-- Item Details Section -->
+    <section id="item_details">
+        <h2>Item Details</h2>
+        <!-- Display item details -->
+    </section>
+
+    <!-- Logout Section -->
+    <section id="logout">
+        <h2>Logout</h2>
+        <!-- Logout functionality -->
+    </section>
+
+    <!-- Leave Site Section -->
+    <section id="leave_site">
+        <h2>Leave Site</h2>
+        <!-- Leave site functionality -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Gadget Store</p>
+    </footer>
+</body>
+</html>
