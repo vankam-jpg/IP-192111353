@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Hospital Appointment Booking System</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Hospital Appointment Booking System</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#search">Search</a>
+        <a href="#book_appointment">Book Appointment</a>
+        <a href="#check_in">Check-in</a>
+        <a href="#appointment_management">Appointment Management</a>
+        <a href="#schedule_timing">Schedule Timing</a>
+        <a href="#past_appointments">Past Appointments</a>
+    </nav>
+
+    <!-- Search Module Section -->
+    <section id="search">
+        <h2>Search Module</h2>
+        <!-- Search form -->
+    </section>
+
+    <!-- Appointment Booking Section -->
+    <section id="book_appointment">
+        <h2>Appointment Booking</h2>
+        <!-- Appointment booking form -->
+    </section>
+
+    <!-- Check-in form Submitting Section -->
+    <section id="check_in">
+        <h2>Check-in Form Submitting</h2>
+        <!-- Check-in form -->
+    </section>
+
+    <!-- Appointment Management Section -->
+    <section id="appointment_management">
+        <h2>Appointment Management</h2>
+        <!-- Appointment management options -->
+    </section>
+
+    <!-- Schedule a Timing Section -->
+    <section id="schedule_timing">
+        <h2>Schedule a Timing</h2>
+        <!-- Timing scheduling form -->
+    </section>
+
+    <!-- Past Appointment Management Section -->
+    <section id="past_appointments">
+        <h2>Past Appointment Management</h2>
+        <!-- Past appointment management options -->
+    </section>
+
+    <!-- Admin Features Section -->
+    <section id="admin_features">
+        <h2>Admin Features</h2>
+        <!-- Admin feature options -->
+    </section>
+
+    <!-- Manage Appointments Section -->
+    <section id="manage_appointments">
+        <h2>Manage Appointments</h2>
+        <!-- Appointment management options for admin -->
+    </section>
+
+    <!-- Manage Doctors Section -->
+    <section id="manage_doctors">
+        <h2>Manage Doctors</h2>
+        <!-- Doctor management options for admin -->
+    </section>
+
+    <!-- View Appointments Statistics Section -->
+    <section id="view_appointments_statistics">
+        <h2>View Appointments Statistics</h2>
+        <!-- Appointment statistics display for admin -->
+    </section>
+
+    <!-- Rating Details Section -->
+    <section id="rating_details">
+        <h2>Rating Details</h2>
+        <!-- Rating details display for admin -->
+    </section>
+
+    <!-- Patient Features Section -->
+    <section id="patient_features">
+        <h2>Patient Features</h2>
+        <!-- Patient feature options -->
+    </section>
+
+    <!-- Signup/Login Section -->
+    <section id="signup_login">
+        <h2>Signup/Login</h2>
+        <!-- Signup/Login form -->
+    </section>
+
+    <!-- Book Appointment Section -->
+    <section id="book_appointment_patient">
+        <h2>Book Appointment</h2>
+        <!-- Appointment booking form for patients -->
+    </section>
+
+    <!-- Search Doctor Section -->
+    <section id="search_doctor">
+        <h2>Search Doctor</h2>
+        <!-- Doctor search form -->
+    </section>
+
+    <!-- Write Reviews Section -->
+    <section id="write_reviews">
+        <h2>Write Reviews</h2>
+        <!-- Review writing form -->
+    </section>
+
+    <!-- Access Past Appointments Section -->
+    <section id="access_past_appointments">
+        <h2>Access Past Appointments</h2>
+        <!-- Display past appointments for patients -->
+    </section>
+
+    <!-- Logout Section -->
+    <section id="logout">
+        <h2>Logout</h2>
+        <!-- Logout functionality -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Hospital Appointment Booking System</p>
+    </footer>
+</body>
+</html>
